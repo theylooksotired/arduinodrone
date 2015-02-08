@@ -1,0 +1,30 @@
+{
+  "name": "node-ardx",
+  "description": "Node ArdC",
+  "version": "0.0.3",
+  "homepage": "http://node-ardx.org/",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "arduino",
+    "tutorial",
+    "workshop"
+  ],
+  "author": {
+    "name": "Anna Gerber"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AnnaGerber/node-ardx.git"
+  },
+  "bugs": "http://github.com/AnnaGerber/node-ardx/issues",
+  "license": "CC-BY-SA",
+  "dependencies": {
+    "express": "~3.4.0",
+    "johnny-five": "~0.7.3",
+    "markedejs": "0.1.0",
+    "ejs": "*",
+    "app": "*"
+  }
+}
